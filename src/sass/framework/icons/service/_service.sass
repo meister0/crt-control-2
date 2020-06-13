@@ -1,0 +1,30 @@
+svg
+  &.service
+    height: 20px
+    width: 20px
+    fill: transparent
+    transition: .2s ease-in-out
+    &:hover
+      cursor: pointer
+      fill: $color-icon-hover
+    &:active
+      fill: $color-icon-active
+  &_search-s,&_hide-notif,&_ext-link,&_doc-icon,&_pdf-icon,&_history,&_seen,&_arrow-r,&_arrow-d
+    &:hover
+      cursor: default
+      fill: none
+    &:active
+      fill: none  
+  &_eye-opened,&_eye-closed,&_settings,&_delete
+    &:active
+      fill: none
+.icon-qa
+  height: 20px
+  width: 20px
+  transition: .2s ease-in-out
+  background: url('../img/icons/service/qa.svg') center center / 100% no-repeat
+  &:hover
+    cursor: pointer
+    background-image: url('../img/icons/service/qa_hov.svg')
+  &:active
+    background-image: url('../img/icons/service/qa_act.svg')

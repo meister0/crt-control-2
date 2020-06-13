@@ -1,0 +1,15 @@
+.container
+  min-width: 1230px
+
+@for $fb from 1 through 10
+  .fb-#{$fb}0 
+    flex-basis: #{$fb}0%
+@each $margin in $margins
+  .m-t-#{$margin}
+    margin-top: #{$margin}px
+  .m-r-#{$margin}
+    margin-right: #{$margin}px
+  .m-b-#{$margin}
+    margin-bottom: #{$margin}px
+  .m-l-#{$margin}
+    margin-left: #{$margin}px

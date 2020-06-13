@@ -1,0 +1,47 @@
+.button
+  padding: 11px 20px
+  border: 3px solid $color-btn-normal
+  background-color: $color-btn-normal
+  outline: none
+  transition: .2s ease-in-out
+  font-size: 18px
+  line-height: 20px
+  &:hover
+    border-color: $color-btn-hover
+    background-color: $color-btn-hover
+    cursor: pointer
+  &:disabled
+    border-color: $color-btn-disabled
+    background-color: $color-btn-disabled
+    color: $color-text-disabled
+  
+
+  &_o
+    background-color: $color-btn-white
+    border-color: $color-btn-normal
+    &:hover
+      background-color: $color-btn-hover
+      border-color: $color-btn-normal
+    &:disabled
+      background-color: $color-btn-white
+      border-color: $color-btn-disabled
+      color: $color-text-disabled
+
+  &_sec
+    background-color: $color-sec
+    border-color: $color-sec
+    &:hover
+      background-color: $color-sec-hover
+      border-color: $color-sec-hover
+    &:disabled
+      color: $color-text-disabled
+      background-color: $color-sec-disabled
+      border-color: $color-sec-disabled
+
+  &_ghost
+    background-color: $color-btn-white
+    border-color: $color-btn-white
+  &_active
+    &:hover
+      background-color: $color-btn-normal
+      border-color: $color-btn-normal

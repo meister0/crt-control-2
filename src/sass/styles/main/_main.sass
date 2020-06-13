@@ -1,0 +1,54 @@
+.main
+  padding: 28px
+  margin-bottom: 50px
+  .nav
+    &__link 
+  .content 
+    padding-top: 8px
+    .aside 
+      flex-basis: 50%
+      &__title
+      &__left, &__right 
+        width: 100%
+        .aside__list 
+        .list
+          list-style-type: none
+          &__title
+          &__item
+            margin: 6px 0
+    .content__articles 
+    .articles
+      flex-basis: 50%
+      .articles__title
+    .article 
+      padding: 24px
+      background-color: $color-sec
+      border: 1px solid $border-color
+      margin-bottom: 20px
+      &_active
+        background-color: $color-art-active
+      &__img
+        width: 48px
+        margin-right: 10px
+        cursor: default
+      &__content
+        width: calc(100% - 48px)
+      &__title
+        margin: 0 5px 10px 0
+      &__text
+      button
+        padding: 8px 15px
+
+@media(min-width: 1450px)
+  .main 
+    .content 
+      .aside
+        flex-basis: 44%
+      .articles
+        flex-basis: 56%
+@media(min-width: 1600px)
+  .main 
+    .content 
+      .article
+        button
+          padding: 11px 20px

@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/framework.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="shortcut icon" href="img/logo.svg" />
+  <!-- inject:css -->
+  <!-- endinject -->
   <title>Обувной ритейл</title>
 </head>
 
@@ -16,31 +17,29 @@
     <div class="side-bar__top top df fdc jcsa aic">
       <div class="top__logo">
         <a href="#"><img src="./img/logo.svg" alt="Logo"></a>
-
       </div>
       <!-- /.top__logo -->
       <div class="mark-icon-wrapper">
-        <img src="./img/icons/main/tshirt.svg" alt="Tshirt icon">
+        <a><img src="./img/icons/main/tshirt.svg" alt="Tshirt icon"></a>
       </div>
       <!-- /.mark-icon-wrapper -->
-      <div class="mark-icon-wrapper active">
-        <img src="./img/icons/main/boots.svg" alt="Boots icon">
-        <div class="active__round"></div>
+      <div class="mark-icon-wrapper mark_active">
+        <a><img src="./img/icons/main/boots.svg" alt="Boots icon"></a>
+        <div class="mark_active__round"></div>
       </div>
       <!-- /.mark-icon-wrapper -->
       <div class="mark-icon-wrapper">
-        <img src="./img/icons/main/plant.svg" alt="Plant icon">
+        <a><img src="./img/icons/main/plant.svg" alt="Plant icon"></a>
       </div>
       <!-- /.mark-icon-wrapper -->
     </div>
     <!-- /.top df fdc jcc aic -->
     <div class="side-bar__bottom bottom df fdc jcsa aic">
-      <div class="mark-icon-wrapper">
-        <img src="./img/icons/main/profile.svg" alt="Profile icon">
+      <div class="bottom__icon mark-icon-wrapper">
+        <a><img src="./img/icons/main/profile.svg" alt="Profile icon"></a>
       </div>
-      <div class="icon-qa">
+      <div class="bottom__icon icon-qa">
       </div>
-
     </div>
     <!-- /.bottom df fdc jcsa aic -->
   </aside>
@@ -48,13 +47,13 @@
   <div class="wrapper df fdc">
     <header class="header">
       <div class="container df jcsb">
-        <div class="header__page-road page-road">
+        <div class="page-road">
           <h1 class="page-road__title">Обувной ритейл / </h1>
           <!-- /.page-road__title -->
           <h2 class="page-road__subtitle">Мужская обувь</h2>
           <!-- /.page-road__subtitle -->
         </div>
-        <!-- /.header__page-road page-road -->
+        <!-- /.page-road -->
         <div class="header__buttons df jcsb aic">
           <div class="header__button">
             <svg class="service search" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -94,21 +93,294 @@
     </header>
     <!-- /.header -->
     <main class="main df fdc">
-      <nav class="main__nav nav df">
-        <a href="#" class="nav__link button button_o">Весь рынок</a>
+      <nav class="nav df">
+        <a href="#" class="nav__link button button_o m-r-16">Весь рынок</a>
         <!-- /.button button_o -->
-        <a href="#" class="nav__link button button_active">Мужская обувь</a>
+        <a href="#" class="nav__link button button_active m-r-16">Мужская обувь</a>
         <!-- /.button button_o -->
-        <a href="#" class="nav__link button button_o">Женская обувь</a>
+        <a href="#" class="nav__link button button_o m-r-16">Женская обувь</a>
         <!-- /.button button_o -->
         <a href="#" class="nav__link button button_o">Детская обувь</a>
         <!-- /.button button_o -->
       </nav>
       <!-- /.main__nav nav df -->
-      <main__content class="content df"></main__content>
+      <div class="content df aifs">
+        <aside class="content__aside aside df  fww fb-40">
+          <h1 class="aside__title">Содержание рынка</h1>
+          <!-- /.aside__title -->
+          <div class="wrapper df">
+            <div class="aside__left df fdc">
+              <ul class="list">
+                <h2 class="list__title m-t-0 m-b-12">Обзор рынка</h2>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Текущее состояние</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Производство</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Импорт</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Экспорт</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Динамика рынка</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Структура рынка</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Каналы продаж</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Госрегулирование</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Мнения игроков рынка</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Сетевой сегмент рынка обуви</a>
+                </li>
+              </ul>
+              <ul class="list">
+                <h2 class="list__title m-t-12 m-b-12">Прогнозы</h2>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Общий прогноз рынка обуви</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Женская обувь</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Мужская обувь</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Детская обувь</a>
+                </li>
+              </ul>
+              <ul class="list">
+                <h2 class="list__title m-t-12 m-b-12">Потребители</h2>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Отечественная обувь</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Социальные сети как канал продвижения</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Изменения цен</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Изменения ассортимента</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Изменения качества</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Отношение к акциям</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Качество обуви</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Госрегулирование</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Факторы выбора обуви</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Другие результаты опросов</a>
+                </li>
+              </ul>
+              <ul class="list">
+                <h2 class="list__title m-t-12 m-b-12">Дополнительно</h2>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Методы сбора информации</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Архив исследований РБКи 2013-2017</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.aside__left df fdc  -->
+            <div class="aside__right df fdc">
+              <ul class="list">
+                <h2 class="list__title m-t-0 m-b-12">Тренды</h2>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Made in Russia</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Омниканальность</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Smart-Shopping</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Программы лояльности</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Дополнительные услуги</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Технологические тренды рынка</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Борьба с контрафактом </a>
+                </li>
+              </ul>
+              <ul class="list">
+                <h2 class="list__title m-t-12 m-b-12">Игроки</h2>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Планы развития ведущих игроков</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Учредители и регистрационные данные</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Ключевые финансовые показатели</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Руководство</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Контактная информация</a>
+                </li>
+              </ul>
+              <ul class="list">
+                <h2 class="list__title m-t-12 m-b-12">События рынка</h2>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Еженедельные дайджесты</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Календарь мероприятий</a>
+                </li>
+              </ul>
+              <ul class="list">
+                <h2 class="list__title m-t-12 m-b-12">Рейтинги</h2>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Топ-100 сетей по торговой площади</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Топ-100 сетей по доле магазинов в торговых центрах</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Ведущие игроки по количеству точек</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Ведущие игроки по обороту</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Ведущие игроки по рыночной доле</a>
+                </li>
+                <li class="list__item">
+                  <a class="link cap_m light" href="#">Другие рейтинги</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.aside__right df fdc -->
+          </div>
+        </aside>
+        <!-- /.content__aside df -->
+        <section class="content__articles articles">
+          <h1 class="articles__title">Развитие бизнеса</h1>
+          <!-- /.articles__title -->
+          <article class="article df">
+            <div class="article__img mark-icon-wrapper mark_active">
+              <img src="./img/icons/main/tshirt.svg" alt="Tshirt icon">
+            </div>
+            <!-- /.article__img mark-icon-wrapper mark_active -->
+            <div class="article__content">
+              <h2 class="article__title">Рынок одёжного ритейла 2019</h2>
+              <!-- /.article__title -->
+              <p class="article__text m-b-16 m-t-0">Команда РБК Исследования рынков подготовила комплексный анализ
+                российского рынка одежды 2019. Серия исследований включает аналитику по развитию сетей (площадь,
+                выручка, количество магазинов, география работы сетей), результаты потребительских опросов, тренды
+                и ключевые события рынка.
+              </p>
+              <!-- /.article__text -->
+              <button class="button button_sec df jcc aic"><span class="m-r-8">Узнать подробнее</span><img
+                  class="service ext-link" src="./img/icons/service/ext-link.svg" alt="External link icon"></button>
+              <!-- /.button button_sec -->
+            </div>
+            <!-- /.article__content -->
+          </article>
+          <!-- /.article -->
+          <article class="article article_active df">
+            <div class="article__img mark-icon-wrapper mark_active">
+              <img src="./img/icons/main/calendar.svg" alt="Calendar icon">
+            </div>
+            <!-- /.article__img mark-icon-wrapper mark_active -->
+            <div class="article__content ">
+              <h2 class="article__title">Название мероприятия</h2>
+              <!-- /.article__title -->
+              <p class="article__text m-b-16 m-t-0">Аннотация мероприятия
+              </p>
+              <!-- /.article__text -->
+              <button class="button df jcc aic"><span class="m-r-8">Узнать подробнее</span><img class="service ext-link"
+                  src="./img/icons/service/ext-link.svg" alt="External link icon"></button>
+              <!-- /.button -->
+            </div>
+            <!-- /.article__content -->
+          </article>
+          <!-- /.article -->
+          <article class="article df">
+            <div class="article__img mark-icon-wrapper mark_active">
+              <img src="./img/icons/main/money.svg" alt="Money icon">
+            </div>
+            <!-- /.article__img mark-icon-wrapper mark_active -->
+            <div class="article__content">
+              <h2 class="article__title">Рынок товаров класса люкс 2019</h2>
+              <!-- /.article__title -->
+              <p class="article__text m-b-16 m-t-0">Готовый анализ рынка аксессуаров класса «люкс» в России.
+                Исследование содержит сведения об объеме рынка, темпах роста, тенденциях и перспективах развития и
+                других ключевых показателях.
+              </p>
+              <!-- /.article__text -->
+              <button class="button button_sec df jcc aic"><span class="m-r-8">Узнать подробнее</span><img
+                  class="service ext-link" src="./img/icons/service/ext-link.svg" alt="External link icon"></button>
+              <!-- /.button button_sec -->
+            </div>
+            <!-- /.article__content -->
+          </article>
+          <!-- /.article -->
+          <article class="article df">
+            <div class="article__img mark-icon-wrapper mark_active">
+              <img src="./img/icons/main/plant.svg" alt="Plant icon">
+            </div>
+            <!-- /.article__img mark-icon-wrapper mark_active -->
+            <div class="article__content">
+              <h2 class="article__title">Рынок коммерческой недвижимости 2019</h2>
+              <!-- /.article__title -->
+              <p class="article__text m-b-16 m-t-0">Международная консалтинговая компания Knight Frank подготовила обзор
+                рынка коммерческой недвижимости по итогам полугодия 2019 года и представила краткий прогноз тенденций
+                рынка в различных сегментах коммерческой недвижимости.
+              </p>
+              <!-- /.article__text -->
+              <button class="button button_sec df jcc aic"><span class="m-r-8">Узнать подробнее</span><img
+                  class="service ext-link" src="./img/icons/service/ext-link.svg" alt="External link icon"></button>
+              <!-- /.button button_sec -->
+            </div>
+            <!-- /.article__content -->
+          </article>
+          <!-- /.article -->
+        </section>
+      </div>
       <!-- /.content df -->
     </main>
     <!-- /.main df fdc -->
+    <footer class="footer df jcsa aic">
+      <p class="footer__copyright cap_m light">© 1995–2019 Все права защищены. АО «РОСБИЗНЕСКОНСАЛТИНГ»</p>
+      <!-- /.footer__copyright -->
+      <div class="footer__links df jcsb">
+        <a class="link footer__agreement" href="#">Пользовательское соглашение</a>
+        <!-- /.footer__agreement -->
+        <a class="link footer__policy" href="#">Политика конфиденциальности</a>
+        <!-- /.footer__policy -->
+      </div>
+      <p class="footer__email cap_m light">Есть вопросы? Напишите нам на <a class="link" href="#">marketing@rbc.ru</a>
+      </p>
+      <!-- /.footer__email -->
+    </footer>
+    <!-- /.footer df jcsa -->
   </div>
   <!-- /.wrapper df fdc -->
 
