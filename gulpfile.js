@@ -85,10 +85,6 @@ function css() {
 		.pipe(browsersync.stream());
 }
 
-function injectFiles() {
-	return src(path.src.html).pipe(dest(path.build.html));
-}
-
 function watchFiles(params) {
 	gulp.watch([path.watch.html], html);
 	gulp.watch([path.watch.css], css);
